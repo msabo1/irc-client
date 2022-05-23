@@ -1,0 +1,5 @@
+/home/mario/projects/irc-client/cmake-build-debug/CMakeFiles/irc-client.dir
+/home/mario/projects/irc-client/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mario/projects/irc-client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mario/projects/irc-client/cmake-build-debug/CMakeFiles/irc-client_autogen_timestamp_deps.dir
+/home/mario/projects/irc-client/cmake-build-debug/CMakeFiles/irc-client_autogen.dir

@@ -1,0 +1,12 @@
+# ninja log v5
+5	4277	1652683397724373275	CMakeFiles/irc_client.dir/main.cpp.o	18ba7ae97e97a1ec
+4277	4420	1652683397871040551	irc_client	9f4a421f6703d91f
+0	1911	1653325123252817183	irc-client_autogen/timestamp	4a71c6b0aac1aa30
+0	1911	1653325123252817183	irc-client_autogen/mocs_compilation.cpp	4a71c6b0aac1aa30
+0	1911	1653325123252817183	/home/mario/projects/irc-client/cmake-build-debug/irc-client_autogen/timestamp	4a71c6b0aac1aa30
+0	1911	1653325123252817183	/home/mario/projects/irc-client/cmake-build-debug/irc-client_autogen/mocs_compilation.cpp	4a71c6b0aac1aa30
+1911	9944	1653325131379761907	CMakeFiles/irc-client.dir/main.cpp.o	661e2fea14975348
+1911	9949	1653325131379761907	CMakeFiles/irc-client.dir/irc-client_autogen/mocs_compilation.cpp.o	2528ab4d2f2e5cbe
+1911	10836	1653325132269798346	CMakeFiles/irc-client.dir/irc-client.cpp.o	8ae52157924db794
+9948	14311	1653325135746617426	CMakeFiles/irc-client.dir/mainwindow.cpp.o	3f3c246d92b2da1e
+14311	20039	1653325141473566308	irc-client	7c724040c9d0090d
