@@ -21,6 +21,9 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        connectdialog.h
+        connectdialog.cpp
+        connectdialog.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

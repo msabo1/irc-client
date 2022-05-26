@@ -19,15 +19,20 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void connect_to_server(std::string server, std::string port, std::string nick);
+
+
 
 private slots:
     void on_sendButton_clicked();
 
-    void on_channelsListWidget_itemActivated(QListWidgetItem *item);
-
     void on_joinChannelButton_clicked();
 
-    void on_channelsListWidget_currentItemChanged(QListWidgetItem *current, QListWidgetItem *previous);
+    void on_namesListWidget_itemClicked(QListWidgetItem *item);
+
+    void on_activeChatsListWidget_itemClicked(QListWidgetItem *item);
+
+    void on_activeChatsListWidget_currentItemChanged(QListWidgetItem *current, QListWidgetItem *previous);
 
 private:
     asio::io_context* ctx_;
@@ -36,6 +41,6 @@ private:
     std::string current_receiver_;
     std::map<std::string, std::string> histories_;
 
-    void change_history();
+    void change_receiver(QString receiver);
 };
 #endif // MAINWINDOW_H
